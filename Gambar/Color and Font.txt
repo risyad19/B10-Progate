@@ -1,0 +1,8 @@
+#000000 : All
+#1E0045 : Bg footer, bg kotak kotak service, bg btn about us
+#EEEEEE	: Bg About Us
+#FEFEFE	: Bg Portofolio
+#C4C4C4 : Bg hover portofolio
+
+
+Font: Red Hat Display
