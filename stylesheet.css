@@ -168,7 +168,8 @@ a {
 footer{
 	background-color: #1E0045;
 	color: #FFFFFF;
-	height: 615px;
+	/*height: 615px;*/
+	padding-bottom: 5%;
 }
 
 li{
