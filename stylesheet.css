@@ -74,17 +74,67 @@ html {
 
 .judul2 {
   padding-left: 15px;
+ color: #000000;
 }
 
 .service-section {
   .card {
-    background-color: #1E0045;
+    background-color: white;
+}
+ .porto-section {
+  
+    background-color: #C4C4C4;
 }
 
-@media screen and (max-width: 650px) {
+@media screen (max-width: 1000px) {
+  .judul1 h2{
+    font-size: 36px;
+  }
+  .judul1 p{
+    font-size: 24px;
+  }
+  .container h2{
+    font-size: 36px;
+  }
+  .container p{
+    font-size: 24px;
+  }
+}
+@media screen (max-width: 650px) {
   .column {
     width: 100%;
     display: block;
     margin-bottom: 20px;
+  }
+<--!  .container {
+    margin: 14px;
+    
+  } -->
+  .container h2 {
+    font-size: 24px;
+    color: #000000;
+  }
+  .container p {
+    font-size: 18px;
+    color: #000000;
+  }
+  .card {
+    margin: 14px;
+    text-align: center;
+    color: #1E0045;
+  }
+  .judul1 h2 {
+    font-size: 36px;
+    color: #FFFFFF;
+  }
+  .judul1 p {
+    font-size: 18px;
+    color: #FFFFFF;
+  }
+  .judul2 h2{
+    font-size: 36px;
+  }
+  .judul2 p{
+    font-size: 18px;
   }
 }
