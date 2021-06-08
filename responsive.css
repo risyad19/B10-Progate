@@ -1,0 +1,72 @@
+@media all and (max-width: 1000px)
+{
+	.about-kiri{
+		width: 60%;
+	}
+
+	.about-kanan{
+		width: 40%;
+		background-image: url(Gambar/backgroundabout.jpg);
+		background-size: cover;
+	}
+
+	.about-kanan img {
+	 	display: none;
+	}
+
+	.service-section{
+		display: none;
+	}
+
+	.porto-section{
+		display:none;
+	}
+
+	.footer-kanan{
+		display: none;
+	}
+
+	.footer-kiri{
+		width: 100%;
+	}
+
+	footer{
+		height: 500px;
+	}
+}
+
+@media all and (max-width: 670px)
+{
+	.about-kiri{
+		width: 100%;
+		text-align: center;
+	}
+
+	.about-kiri p{
+		padding: 0;
+	}
+
+	.about-kanan{
+		display: none;
+	}
+
+	.service-section{
+		display: none;
+	}
+
+	.porto-section{
+		display:none;
+	}
+
+	.footer-kanan{
+		display: none;
+	}
+
+	.footer-kiri{
+		width: 100%;
+	}
+
+	footer{
+		height: 500px;
+	}
+}
