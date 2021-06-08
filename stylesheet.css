@@ -40,6 +40,9 @@ html {
 
 .container {
   padding: 0 16px;
+  color: #1E0045;
+  margin-right: 54px;
+  margin-bottom: 65px;
 }
 
 .container::after, .row::after {
@@ -78,6 +81,7 @@ html {
 
 .judul1 p{
   font-size: 24px;
+  margin-bottom: 65px;
 }
 
 .judul2 {
@@ -90,6 +94,7 @@ html {
 
 .judul2 p{
   font-size: 24px;
+  margin-bottom: 65px;
 }
 
 .service-section {
