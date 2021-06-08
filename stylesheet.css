@@ -17,14 +17,48 @@ a {
 
 .column {
   float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  /*padding: 0 8px;*/
+}
+
+.column-portofolio {
+  float: left;
   width: 33.3%;
   margin-bottom: 16px;
-  padding: 0 8px;
+  /*padding: 0 8px;*/
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
+  border-radius: 10px;
+}
+
+.card:active{
+	position: relative;
+  	top: 7px;
+  	box-shadow: none;
+}
+
+.card:hover{
+	background-color: #1E0045;
+	color: white;
+}
+
+.card-service {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  background-color: #1E0045;
+  color: white;
+  box-shadow: 0 7px #1a7940;
+  /*border-radius: 10px;*/
+  padding: 5px;
+}
+
+.card-service:hover {
+  background-color: #FFFFFF;
+  color: black;
 }
 
 .about-section {
@@ -92,6 +126,18 @@ a {
   background-color: #555;
 }
 
+.button:active{
+	position: relative;
+  	top: 7px;
+  	box-shadow: none;
+}
+
+.see-all{
+	float: right;
+	margin-top: 2%;
+    margin-right: 5%;
+}
+
 .judul1 {
   padding-left: 15px;
 }
@@ -100,12 +146,23 @@ a {
   padding-left: 15px;
 }
 
+/*.service-section h2 {
+  font-weight: bolder;
+}*/
+
 .service-section {
     background-color: white;
+    padding: 50px;
 }
 
 .porto-section {
   background-color: #EEEEEE;
+  padding: 50px;
+}
+
+.porto-section img{
+	height: 299.94px;
+	width: 399.91px;
 }
 
 footer{
@@ -126,6 +183,7 @@ li{
   border: none;
   /*border-radius: 5px;*/
   opacity: 0.8;
+  cursor: pointer;
 }
 
 .containt-submit:hover {
