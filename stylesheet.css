@@ -34,6 +34,10 @@ header {
     
 } 
 
+.header-list a{
+	color: white;
+}
+
 .header-list {
     margin-right: 70px;
     font-size: 17px;
@@ -51,10 +55,19 @@ header {
 .menu:hover {
     background-color: rgba(255, 255, 255, 0.5);
     color: yellow;
-    /*display: block; 
     border-radius:5px;
+    /*display: block; 
     width: 90px; 
     text-align: center;*/
+}
+
+.menu-icon{
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 10px 0;
+  line-height: 10px;
+  display: none;
 }
 
 .header-logo {
