@@ -32,6 +32,8 @@ a {
   background-color: #EEEEEE;
   color: black;
   height: 400px;
+  display: flex;
+  align-items: center;
 }
 
 .about-section p {
@@ -39,21 +41,21 @@ a {
 }
 
 .about-kanan img {
- 	align-items: center;
-	object-fit: fill;
+ 	/*align-items: center;
+	object-fit: fill;*/
 	height: 400px;
 }
 
 .about-kanan{
 	height: 400px;
-	width: 50%;
+	/*width: 40%;*/
 	float:right;
 	margin-right: -25px;
 }
 
 .about-kiri{
 	padding: 50px;
-	width: 50%;
+	/*width: 60%;*/
 	float:left;
 }
 
