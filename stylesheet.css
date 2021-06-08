@@ -81,9 +81,6 @@ html {
     background-color: #1E0045;
 }
 
-.porto-section {
-  background-color: black;
-}
 @media screen and (max-width: 650px) {
   .column {
     width: 100%;
