@@ -28,18 +28,33 @@ a {
 }
 
 .about-section {
-  padding: 50px;
   text-align: left;
   background-color: #EEEEEE;
   color: black;
+  height: 400px;
 }
 
 .about-section p {
-  padding-right: 50%;
+  padding-right: 50px;
 }
 
-.gambar-aboutsection img {
-  align-items: center;
+.about-kanan img {
+ 	align-items: center;
+	object-fit: fill;
+	height: 400px;
+}
+
+.about-kanan{
+	height: 400px;
+	width: 50%;
+	float:right;
+	margin-right: -25px;
+}
+
+.about-kiri{
+	padding: 50px;
+	width: 50%;
+	float:left;
 }
 
 .title {
