@@ -76,11 +76,8 @@ html {
   padding-left: 15px;
 }
 
-.service-section {
-  .card {
-    background-color: #1E0045;
-}
 
+/*
 @media screen and (max-width: 650px) {
   .column {
     width: 100%;
@@ -88,3 +85,4 @@ html {
     margin-bottom: 20px;
   }
 }
+*/
