@@ -25,6 +25,15 @@ a {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
+  border-radius: 10px;
+}
+
+.card-service {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  background-color: #1E0045;
+  color: white;
+  border-radius: 10px;
 }
 
 .about-section {
@@ -78,7 +87,7 @@ a {
 }
 
 .button {
-  border: none;
+  border-radius: 5px;
   outline: 0;
   display: inline-block;
   padding: 8px;
@@ -93,20 +102,19 @@ a {
   background-color: #555;
 }
 
-.judul1 {
-  padding-left: 15px;
-}
-
-.judul2 {
-  padding-left: 15px;
-}
-
 .service-section {
     background-color: white;
+    padding-left: 50px;
+}
+
+.service-section h2 {
+  font-weight: bolder;
 }
 
 .porto-section {
   background-color: #EEEEEE;
+  padding-left: 50px;
+  padding-top: 15px;
 }
 
 footer{
