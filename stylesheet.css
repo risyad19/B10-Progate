@@ -137,6 +137,7 @@ input, textarea{
 .footer-kiri{
 	width: 50%;
 	float: right;
+	padding-left: 25px;
 }
 
 .fa, .fab {
