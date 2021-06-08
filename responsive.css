@@ -1,5 +1,19 @@
 @media all and (max-width: 1000px)
 {
+	.header-list{
+		display:  none;
+
+	}
+	.header-logo {
+		float: left;
+		font-size:15px;
+		margin-left: 50px;
+		letter-spacing: 2px;
+		line-height: 25px;
+	}
+	.menu-icon{
+		display:  block;
+	}
 	.about-kiri{
 		width: 60%;
 	}
@@ -21,12 +35,13 @@
 	.porto-section{
 		width: 100%;
 	}
+
 	.column {
 		width: 50%;
 	  }
 
 	.column-portofolio {
-	width: 100%;
+		width: 100%;
 	}
 
 	.footer-kanan{
@@ -35,29 +50,41 @@
 	}
 
 	.footer-kiri{
-		width: 100%;
+        width: 100%;
 	}
 
 	footer{
 		height: 800px;
         width: 100%;
 	}
-    input, textarea{
+	input, textarea{
         width:98%;
       }
-
 }
 
 @media all and (max-width: 670px)
 {
-	
-    
+	.header-list{
+		display:  none;
 
-    .about-kiri{
+	}
+	.header-logo {
+		float: left;
+		font-size:15px;
+		margin-left: 50px;
+		letter-spacing: 2px;
+		line-height: 25px;
+	}
+	.top-wrapper h1 {
+		font-size: 42px;
+	  }
+
+	.menu-icon{
+		display:  block;
+	}
+	.about-kiri{
 		width: 100%;
 		text-align: center;
-        /*background-image: url('Gambar/backgroundabout2.png') ;
-        background-size: cover;*/
 	}
 
 	.about-kiri p{
@@ -66,12 +93,12 @@
 
 	.about-kanan{
 		width: 25%;
-		
 	}
 
 	.service-section{
 		width: 100%;
 	}
+
 	.column {
 		width: 100%;
 	  }
