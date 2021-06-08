@@ -31,11 +31,11 @@ html {
 }
 
 .about-section p {
-  padding-right: 1385px;
+  max-width: fit-content;
 }
 
 .gambar-aboutsection img {
-  align-items: center;
+  padding-left: 100px;
 }
 
 .container {
