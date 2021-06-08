@@ -24,7 +24,7 @@ html {
 }
 
 .about-section {
-  padding: 50px;
+  padding: 83px 57px 83px, 57px;
   text-align: left;
   background-color: #EEEEEE;
   color: black;
@@ -35,7 +35,7 @@ html {
 }
 
 .gambar-aboutsection img {
-  align-items: center;
+  align-items: right;
 }
 
 .container {
@@ -72,9 +72,24 @@ html {
   padding-left: 15px;
 }
 
+.judul1 h2 {
+ font-size: 36px;
+}
+
+.judul1 p{
+  font-size: 24px;
+}
+
 .judul2 {
   padding-left: 15px;
  color: #000000;
+}
+.judul2 h2 {
+ font-size: 36px;
+}
+
+.judul2 p{
+  font-size: 24px;
 }
 
 .service-section {
@@ -97,6 +112,15 @@ html {
     font-size: 36px;
   }
   .container p{
+    font-size: 24px;
+  }
+  .about-section h1{
+    font-size: 36px;
+  }
+  .about-section h2{
+    font-size: 24px;
+  }
+  .about-section p{
     font-size: 24px;
   }
 }
@@ -123,13 +147,22 @@ html {
     text-align: center;
     color: #1E0045;
   }
+  .about-section h1{
+    font-size: 36px;
+  }
+  .about-section h2{
+    font-size: 18px;
+  }
+  .about-section p{
+    font-size: 18px;
+  }
   .judul1 h2 {
     font-size: 36px;
-    color: #FFFFFF;
+   
   }
   .judul1 p {
     font-size: 18px;
-    color: #FFFFFF;
+    
   }
   .judul2 h2{
     font-size: 36px;
