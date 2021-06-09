@@ -1,0 +1,133 @@
+@media all and (max-width: 1000px)
+{
+	.header-list{
+		display:  none;
+
+	}
+	.header-logo {
+		float: left;
+		font-size:15px;
+		margin-left: 50px;
+		letter-spacing: 2px;
+		line-height: 25px;
+	}
+	.menu-icon{
+		display:  block;
+	}
+	.about-kiri{
+		width: 60%;
+	}
+
+	.about-kanan{
+		width: 40%;
+		background-image: url(Gambar/backgroundabout.jpg);
+		background-size: cover;
+	}
+
+	.about-kanan img {
+	 	display: none;
+	}
+
+	.service-section{
+		width: 100%;
+	}
+
+	.porto-section{
+		width: 100%;
+	}
+
+	.column {
+		width: 50%;
+	  }
+
+	.column-portofolio {
+		width: 100%;
+	}
+
+	.footer-kanan{
+		width: 100%;
+		padding : 20px;
+	}
+
+	.footer-kiri{
+        width: 100%;
+	}
+
+	footer{
+		height: 800px;
+        width: 100%;
+	}
+	input, textarea{
+        width:98%;
+      }
+}
+
+@media all and (max-width: 670px)
+{
+	.header-list{
+		display:  none;
+
+	}
+	.header-logo {
+		float: left;
+		font-size:15px;
+		margin-left: 50px;
+		letter-spacing: 2px;
+		line-height: 25px;
+	}
+	.top-wrapper h1 {
+		font-size: 42px;
+	  }
+
+	.menu-icon{
+		display:  block;
+	}
+	.about-kiri{
+		width: 100%;
+		text-align: center;
+	}
+
+	.about-kiri p{
+		padding: 0;
+	}
+
+	.about-kanan{
+		width: 25%;
+	}
+
+	.service-section{
+		width: 100%;
+	}
+
+	.column {
+		width: 100%;
+	  }
+
+	.column-portofolio {
+		
+		width: 100%;
+	}
+
+	.porto-section{
+		width: 100%;
+	}
+
+	.footer-kanan{
+        width: 100%;
+		padding : 20px;
+	}
+
+    input, textarea{
+        width:98%;
+      }
+
+	.footer-kiri{
+
+        width: 100%;
+	}
+
+	footer{
+		height: 780px;
+        width: 100%;
+	}
+}
